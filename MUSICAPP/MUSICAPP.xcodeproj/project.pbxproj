@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934F4C8825372C5C0019E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4C8725372C5C0019E5D4 /* AppDelegate.swift */; };
+		934F4C8A25372C5C0019E5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4C8925372C5C0019E5D4 /* SceneDelegate.swift */; };
+		934F4C8F25372C5C0019E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C8D25372C5C0019E5D4 /* Main.storyboard */; };
+		934F4C9125372C620019E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9025372C620019E5D4 /* Assets.xcassets */; };
+		934F4C9425372C620019E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9225372C620019E5D4 /* LaunchScreen.storyboard */; };
+		934F4C9C25372E100019E5D4 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9B25372E100019E5D4 /* models */; };
+		934F4C9E25372E1F0019E5D4 /* viewcontrollers in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9D25372E1F0019E5D4 /* viewcontrollers */; };
+		934F4CA5253730E90019E5D4 /* Make It Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CA4253730E90019E5D4 /* Make It Right.mp3 */; };
+		934F4CA9253731320019E5D4 /*  Feeling Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */; };
+		934F4CAB253731480019E5D4 /* ain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CAA253731480019E5D4 /* ain.mp3 */; };
+		934F4CAF2537315B0019E5D4 /* Ha Anatha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */; };
+		934F4CB1253731900019E5D4 /*  Miss Movin On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */; };
+		934F4CB3253731B10019E5D4 /* Me & My Girls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */; };
+		934F4CB5253732170019E5D4 /* Im In Love With A Monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB4253732170019E5D4 /* Im In Love With A Monster.mp3 */; };
+		934F4CE225375C290019E5D4 /* aseer ahsan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */; };
+		934F4CE425375C890019E5D4 /*  Drive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CE325375C890019E5D4 /*  Drive.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		934F4C8425372C5C0019E5D4 /* MUSICAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUSICAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934F4C8725372C5C0019E5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934F4C8925372C5C0019E5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		934F4C8E25372C5C0019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934F4C9025372C620019E5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934F4C9325372C620019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		934F4C9B25372E100019E5D4 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
+		934F4C9D25372E1F0019E5D4 /* viewcontrollers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = viewcontrollers; sourceTree = "<group>"; };
+		934F4CA4253730E90019E5D4 /* Make It Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Make It Right.mp3"; sourceTree = "<group>"; };
+		934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Feeling Alive.mp3"; sourceTree = "<group>"; };
+		934F4CAA253731480019E5D4 /* ain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ain.mp3; sourceTree = "<group>"; };
+		934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ha Anatha.mp3"; sourceTree = "<group>"; };
+		934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Miss Movin On.mp3"; sourceTree = "<group>"; };
+		934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Me & My Girls.mp3"; sourceTree = "<group>"; };
+		934F4CB4253732170019E5D4 /* Im In Love With A Monster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Im In Love With A Monster.mp3"; sourceTree = "<group>"; };
+		934F4CDD25375B210019E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "aseer ahsan.mp3"; path = "../../../../../../Downloads/hw4/hw4/songs/aseer ahsan.mp3"; sourceTree = "<group>"; };
+		934F4CE325375C890019E5D4 /*  Drive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Drive.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934F4C8125372C5C0019E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934F4C7B25372C5B0019E5D4 = {
+			isa = PBXGroup;
+			children = (
+				934F4C8625372C5C0019E5D4 /* MUSICAPP */,
+				934F4C8525372C5C0019E5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934F4C8525372C5C0019E5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934F4C8425372C5C0019E5D4 /* MUSICAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934F4C8625372C5C0019E5D4 /* MUSICAPP */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CA3253730A30019E5D4 /* music songs */,
+				934F4C8725372C5C0019E5D4 /* AppDelegate.swift */,
+				934F4CDD25375B210019E5D4 /* Info.plist */,
+				934F4C8925372C5C0019E5D4 /* SceneDelegate.swift */,
+				934F4C8D25372C5C0019E5D4 /* Main.storyboard */,
+				934F4C9025372C620019E5D4 /* Assets.xcassets */,
+				934F4C9225372C620019E5D4 /* LaunchScreen.storyboard */,
+				934F4C9D25372E1F0019E5D4 /* viewcontrollers */,
+				934F4C9B25372E100019E5D4 /* models */,
+			);
+			path = MUSICAPP;
+			sourceTree = "<group>";
+		};
+		934F4CA3253730A30019E5D4 /* music songs */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CB4253732170019E5D4 /* Im In Love With A Monster.mp3 */,
+				934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */,
+				934F4CE325375C890019E5D4 /*  Drive.mp3 */,
+				934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */,
+				934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */,
+				934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */,
+				934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */,
+				934F4CAA253731480019E5D4 /* ain.mp3 */,
+				934F4CA4253730E90019E5D4 /* Make It Right.mp3 */,
+			);
+			path = "music songs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934F4C8325372C5C0019E5D4 /* MUSICAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934F4C9825372C620019E5D4 /* Build configuration list for PBXNativeTarget "MUSICAPP" */;
+			buildPhases = (
+				934F4C8025372C5C0019E5D4 /* Sources */,
+				934F4C8125372C5C0019E5D4 /* Frameworks */,
+				934F4C8225372C5C0019E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MUSICAPP;
+			productName = MUSICAPP;
+			productReference = 934F4C8425372C5C0019E5D4 /* MUSICAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934F4C7C25372C5B0019E5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Mariam Alkandari";
+				TargetAttributes = {
+					934F4C8325372C5C0019E5D4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 934F4C7F25372C5B0019E5D4 /* Build configuration list for PBXProject "MUSICAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934F4C7B25372C5B0019E5D4;
+			productRefGroup = 934F4C8525372C5C0019E5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934F4C8325372C5C0019E5D4 /* MUSICAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934F4C8225372C5C0019E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F4C9425372C620019E5D4 /* LaunchScreen.storyboard in Resources */,
+				934F4CB1253731900019E5D4 /*  Miss Movin On.mp3 in Resources */,
+				934F4C9E25372E1F0019E5D4 /* viewcontrollers in Resources */,
+				934F4CE425375C890019E5D4 /*  Drive.mp3 in Resources */,
+				934F4CA5253730E90019E5D4 /* Make It Right.mp3 in Resources */,
+				934F4CA9253731320019E5D4 /*  Feeling Alive.mp3 in Resources */,
+				934F4C9125372C620019E5D4 /* Assets.xcassets in Resources */,
+				934F4CE225375C290019E5D4 /* aseer ahsan.mp3 in Resources */,
+				934F4CB3253731B10019E5D4 /* Me & My Girls.mp3 in Resources */,
+				934F4CAF2537315B0019E5D4 /* Ha Anatha.mp3 in Resources */,
+				934F4CB5253732170019E5D4 /* Im In Love With A Monster.mp3 in Resources */,
+				934F4C9C25372E100019E5D4 /* models in Resources */,
+				934F4CAB253731480019E5D4 /* ain.mp3 in Resources */,
+				934F4C8F25372C5C0019E5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934F4C8025372C5C0019E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F4C8825372C5C0019E5D4 /* AppDelegate.swift in Sources */,
+				934F4C8A25372C5C0019E5D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		934F4C8D25372C5C0019E5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934F4C8E25372C5C0019E5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		934F4C9225372C620019E5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934F4C9325372C620019E5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934F4C9625372C620019E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934F4C9725372C620019E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934F4C9925372C620019E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRN594Y3CR;
+				INFOPLIST_FILE = MUSICAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MARIAM.MUSICAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934F4C9A25372C620019E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRN594Y3CR;
+				INFOPLIST_FILE = MUSICAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MARIAM.MUSICAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934F4C7F25372C5B0019E5D4 /* Build configuration list for PBXProject "MUSICAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F4C9625372C620019E5D4 /* Debug */,
+				934F4C9725372C620019E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934F4C9825372C620019E5D4 /* Build configuration list for PBXNativeTarget "MUSICAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F4C9925372C620019E5D4 /* Debug */,
+				934F4C9A25372C620019E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934F4C7C25372C5B0019E5D4 /* Project object */;
+}
