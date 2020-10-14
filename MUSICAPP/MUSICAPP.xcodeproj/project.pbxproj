@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		934F4C8825372C5C0019E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4C8725372C5C0019E5D4 /* AppDelegate.swift */; };
 		934F4C8A25372C5C0019E5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4C8925372C5C0019E5D4 /* SceneDelegate.swift */; };
-		934F4C8F25372C5C0019E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C8D25372C5C0019E5D4 /* Main.storyboard */; };
 		934F4C9125372C620019E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9025372C620019E5D4 /* Assets.xcassets */; };
 		934F4C9425372C620019E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9225372C620019E5D4 /* LaunchScreen.storyboard */; };
 		934F4C9C25372E100019E5D4 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9B25372E100019E5D4 /* models */; };
 		934F4C9E25372E1F0019E5D4 /* viewcontrollers in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C9D25372E1F0019E5D4 /* viewcontrollers */; };
 		934F4CA5253730E90019E5D4 /* Make It Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CA4253730E90019E5D4 /* Make It Right.mp3 */; };
 		934F4CA9253731320019E5D4 /*  Feeling Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */; };
-		934F4CAB253731480019E5D4 /* ain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CAA253731480019E5D4 /* ain.mp3 */; };
 		934F4CAF2537315B0019E5D4 /* Ha Anatha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */; };
 		934F4CB1253731900019E5D4 /*  Miss Movin On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */; };
 		934F4CB3253731B10019E5D4 /* Me & My Girls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */; };
 		934F4CB5253732170019E5D4 /* Im In Love With A Monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CB4253732170019E5D4 /* Im In Love With A Monster.mp3 */; };
 		934F4CE225375C290019E5D4 /* aseer ahsan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */; };
 		934F4CE425375C890019E5D4 /*  Drive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CE325375C890019E5D4 /*  Drive.mp3 */; };
+		934F4CE6253761E40019E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4C8725372C5C0019E5D4 /* AppDelegate.swift */; };
+		934F4CE92537661A0019E5D4 /* ain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CE82537661A0019E5D4 /* ain.mp3 */; };
+		934F4CEC25376B050019E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4C8D25372C5C0019E5D4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		934F4C9D25372E1F0019E5D4 /* viewcontrollers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = viewcontrollers; sourceTree = "<group>"; };
 		934F4CA4253730E90019E5D4 /* Make It Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Make It Right.mp3"; sourceTree = "<group>"; };
 		934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Feeling Alive.mp3"; sourceTree = "<group>"; };
-		934F4CAA253731480019E5D4 /* ain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ain.mp3; sourceTree = "<group>"; };
 		934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ha Anatha.mp3"; sourceTree = "<group>"; };
 		934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Miss Movin On.mp3"; sourceTree = "<group>"; };
 		934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Me & My Girls.mp3"; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		934F4CDD25375B210019E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "aseer ahsan.mp3"; path = "../../../../../../Downloads/hw4/hw4/songs/aseer ahsan.mp3"; sourceTree = "<group>"; };
 		934F4CE325375C890019E5D4 /*  Drive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " Drive.mp3"; sourceTree = "<group>"; };
+		934F4CE82537661A0019E5D4 /* ain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ain.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,10 @@
 				934F4CB2253731B10019E5D4 /* Me & My Girls.mp3 */,
 				934F4CE325375C890019E5D4 /*  Drive.mp3 */,
 				934F4CB0253731900019E5D4 /*  Miss Movin On.mp3 */,
+				934F4CE82537661A0019E5D4 /* ain.mp3 */,
 				934F4CE125375C290019E5D4 /* aseer ahsan.mp3 */,
 				934F4CAE2537315B0019E5D4 /* Ha Anatha.mp3 */,
 				934F4CA8253731320019E5D4 /*  Feeling Alive.mp3 */,
-				934F4CAA253731480019E5D4 /* ain.mp3 */,
 				934F4CA4253730E90019E5D4 /* Make It Right.mp3 */,
 			);
 			path = "music songs";
@@ -170,13 +170,13 @@
 				934F4CA5253730E90019E5D4 /* Make It Right.mp3 in Resources */,
 				934F4CA9253731320019E5D4 /*  Feeling Alive.mp3 in Resources */,
 				934F4C9125372C620019E5D4 /* Assets.xcassets in Resources */,
+				934F4CEC25376B050019E5D4 /* Main.storyboard in Resources */,
 				934F4CE225375C290019E5D4 /* aseer ahsan.mp3 in Resources */,
 				934F4CB3253731B10019E5D4 /* Me & My Girls.mp3 in Resources */,
 				934F4CAF2537315B0019E5D4 /* Ha Anatha.mp3 in Resources */,
 				934F4CB5253732170019E5D4 /* Im In Love With A Monster.mp3 in Resources */,
 				934F4C9C25372E100019E5D4 /* models in Resources */,
-				934F4CAB253731480019E5D4 /* ain.mp3 in Resources */,
-				934F4C8F25372C5C0019E5D4 /* Main.storyboard in Resources */,
+				934F4CE92537661A0019E5D4 /* ain.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934F4C8825372C5C0019E5D4 /* AppDelegate.swift in Sources */,
+				934F4CE6253761E40019E5D4 /* AppDelegate.swift in Sources */,
 				934F4C8A25372C5C0019E5D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,9 @@ class AritistCellTVC: UITableViewCell {
     @IBOutlet weak var artistLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+         
+    
+    
         // Initialization code
     }
     func configureCell(artists: Artists){

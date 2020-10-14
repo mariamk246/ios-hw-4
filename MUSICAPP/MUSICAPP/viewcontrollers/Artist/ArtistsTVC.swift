@@ -12,6 +12,8 @@ class ArtistsTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
 
        
     }
